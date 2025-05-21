@@ -1,4 +1,4 @@
-class ActionLogger {
+export class ActionLogger {
   private static instance: ActionLogger | null = null;
   private logs: string[] = [];
 
