@@ -28,7 +28,7 @@ class Note implements DraftCreator{                     //Прототип
   
   public createDraft(): Note{
     return new Note(this.id, true, this.text, this.date, this.title, this.isImportant, this.deadline, this.author, this.images, this.tags, this.sharedToGroups, this.sharedToTechears);
-  }Ііі
+  }
   
   public getId(): number{
     return this.id;
